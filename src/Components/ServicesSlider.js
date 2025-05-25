@@ -32,7 +32,7 @@ const services = [
     {
         icon: "assets/img/icon/service_3_5.svg",
         title: "Pool Inspections",
-        description: "Comprehensive pool inspections ensuring safety <br>and functionality",
+        description: "Comprehensive pool inspections ensuring safety and functionality",
         link:"/about-us"
     },
 ];

@@ -56,9 +56,9 @@ const Header = ({ onToggleMenu }) => {
                                     <div className="row align-items-center justify-content-between">
                                         <div className="col-auto">
                                             <div className="header-logo">
-                                                <a href="index.html">
+                                                <Link to="/">
                                                     <img src="assets/img/logo3.svg" alt="Poolax" />
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className="col-auto me-lg-auto">
