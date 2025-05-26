@@ -62,9 +62,9 @@ export default function TestimonialsSection() {
               <div className="testi-item">
                 <p className="testi-item_text">{item.text}</p>
                 <div className="testi-item_wrapp">
-                  <div className="testi-item_profile">
+              {/*    <div className="testi-item_profile">
                     <img src={item.image} alt="testimonial" />
-                  </div>
+                  </div>*/}
                   <div className="media-body">
                     <h3 className="box-title">{item.name}</h3>
                     <span className="testi-item_desig">{item.designation}</span>

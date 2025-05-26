@@ -18,10 +18,7 @@ const Header = ({ onToggleMenu }) => {
 
                                         <li>
                                             <i className="fa-regular fa-messages"></i>
-                                            <a href="mailto:info@poolax.com">info@example.com</a>
-                                        </li>
-                                        <li>
-                                            <i className="fa-light fa-clock"></i>Work Time: Mon - Fri 09AM - 6PM
+                                            <a href="mailto:info@starpoolsmb.com">info@starpoolsmb.com</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -58,7 +55,9 @@ const Header = ({ onToggleMenu }) => {
                                 <div className="col-auto">
                                     <div className="header-logo">
                                         <Link to="/">
-                                            <img src="assets/img/logo3.svg" alt="Poolax" />
+                                            <img  style={{height:'75px'}} className="img-fluid"
+                                                  src="assets/img/logo-client.png"
+                                                  alt="Poolax" />
                                         </Link>
                                     </div>
                                 </div>
@@ -119,7 +118,7 @@ const Header = ({ onToggleMenu }) => {
                                                     <li>
                                                         <a href="#">Leak & Repair</a>
                                                     </li>
-                                                   
+
                                                 </ul>
                                             </li>
 
@@ -140,16 +139,6 @@ const Header = ({ onToggleMenu }) => {
                                 </div>
                                 <div className="col-auto">
                                     <div className="header-button">
-                                        <button type="button" className="icon-btn searchBoxToggler">
-                                            <i className="far fa-search"></i>
-                                        </button>
-                                        <a
-                                            href="#"
-                                            className="icon-btn sideMenuToggler d-none d-lg-block"
-                                            aria-label="Open Side Menu"
-                                        >
-                                            <i className="far fa-bars"></i>
-                                        </a>
                                         <Link to="/About-Us" className="request-quote">
                                             Request a quote
                                         </Link>

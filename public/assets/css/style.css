@@ -21816,6 +21816,7 @@ span.select2-selection.select2-selection--single:focus {
   position: relative;
 }
 
+/*
 .project-item:after {
   content: '';
   position: absolute;
@@ -21836,6 +21837,7 @@ span.select2-selection.select2-selection--single:focus {
   transition: 0.4s all;
   margin: 0px;
 }
+*/
 
 .project-item .project-img {
   width: 100%;

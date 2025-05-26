@@ -74,7 +74,7 @@ const ServicesSlider = () => {
             style={{ backgroundImage: "url('assets/img/bg/service_bg_2.jpg')",marginTop:'-100px' }}
         >
             <div className="container">
-                <div className="row justify-content-lg-between justify-content-center align-items-center">
+                <div className="row justify-content-lg-between justify-content-center align-items-center space-top">
                     <div className="col-lg-7">
                         <div className="title-area text-center text-lg-start">
                             <span className="sub-title style1">Our Best Services</span>
