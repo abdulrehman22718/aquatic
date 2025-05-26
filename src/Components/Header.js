@@ -23,7 +23,7 @@ const Header = ({ onToggleMenu }) => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-auto">
+                   {/*         <div className="col-auto">
                                 <div className="social-links">
                                     <span className="social-title">Follow Us On:</span>
                                     <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
@@ -42,7 +42,7 @@ const Header = ({ onToggleMenu }) => {
                                         <i className="fab fa-youtube"></i>
                                     </a>
                                 </div>
-                            </div>
+                            </div>*/}
                         </div>
                     </div>
                 </div>
