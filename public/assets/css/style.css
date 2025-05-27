@@ -22967,21 +22967,6 @@ span.select2-selection.select2-selection--single:focus {
   padding: 0;
 }
 
-.mobile-nav li {
-  margin-bottom: 15px;
-  font-size: 15px;
-  font-weight: 700;
-  list-style-type: none;  /* Removes bullets */
-
-}
-.mobile-nav li a {
-  text-decoration: none;
-}
-
-.submenu {
-  padding-left: 20px;
-  margin-top: 10px;
-}
 
 
 .th-menu-wrapper {
@@ -22990,4 +22975,17 @@ span.select2-selection.select2-selection--single:focus {
 
 .th-menu-wrapper.th-body-visible {
   display: block !important;
+}
+
+.th-mobile-menu ul .menu-item-has-children > a:after {
+  content: none;
+}
+.th-mobile-menu > ul {
+  padding: 0px;
+}
+.th-mobile-menu ul li a {
+  font-weight: 600;
+}
+.th-mobile-menu ul li a {
+  text-decoration: none;
 }
