@@ -6,34 +6,28 @@ import { Link } from 'react-router-dom';
 
 const services = [
     {
-        icon: "assets/img/icon/service_3_1.svg",
-        title: "Pool Cleaning",
-        description: "Comprehensive pool inspections ensuring safety and peace of mind",
-        link:"/about-us"
+        icon: "assets/img/icon/service_3_2.svg",  // Keeping the same icon
+        title: "Pebble Tec Plaster",
+        description: "High-quality plaster finishes that provide durability and an elegant look for pool.",
+        link: "/about-us"
     },
     {
-        icon: "assets/img/icon/service_3_2.svg",
-        title: "Water Analysis",
-        description: "Customized pool lighting solutions, creating a for evening relaxation.",
-        link:"/about-us"
+        icon: "assets/img/icon/service_3_2.svg",  // Keeping the same icon
+        title: "Concrete Pools",
+        description: "Custom-built concrete pools designed for durability and unique style.",
+        link: "/about-us"
     },
     {
-        icon: "assets/img/icon/service_3_3.svg",
-        title: "Equipment Install",
-        description: "Efficient drain and clean services to keep your systems running smoothly",
-        link:"/about-us"
+        icon: "assets/img/icon/service_3_2.svg",  // Keeping the same icon
+        title: "Fiberglass Pools",
+        description: "Low-maintenance, high-quality fiberglass pools for effortless enjoyment.",
+        link: "/about-us"
     },
     {
-        icon: "assets/img/icon/service_3_4.svg",
-        title: "Drain & Clean",
-        description: "Reliable pool maintenance services for hassle-free enjoyment",
-        link:"/about-us"
-    },
-    {
-        icon: "assets/img/icon/service_3_5.svg",
-        title: "Pool Inspections",
-        description: "Comprehensive pool inspections ensuring safety and functionality",
-        link:"/about-us"
+        icon: "assets/img/icon/service_3_2.svg",  // Add or update the image for this one, if needed
+        title: "Leak & Repair",
+        description: "Expert leak detection and repair services to keep your pool in top shape.",
+        link: "/about-us"
     },
 ];
 

@@ -7,7 +7,7 @@ const Footer = () => {
           className="footer-wrapper footer-layout3"
           style={{ backgroundImage: "url('assets/img/bg/footer_bg_3.jpg')" }}
       >
-        <div className="widget-area">
+        <div className="widget-area" style={{paddingBottom: '0px'}}>
           <div className="container">
             <div className="row justify-content-between">
               <div className="col-md-6 col-xl-4">
@@ -15,9 +15,8 @@ const Footer = () => {
                   <h3 className="widget_title">About Company</h3>
                   <div className="th-widget-about">
                     <p className="about-text">
-                      We provide specialized winterization services to safeguard
-                      your pool during the off-season, and when spring arrives, we
-                      handle the thorough opening process.
+                      Star Pools is a veteran-owned and operated company, proudly serving the Carolinas.
+                      We specialize in renovations, new builds, and high-end Pebble Tec plaster finishes, and State Of the art leak detections.
                     </p>
                     {/*         <div className="th-social footer-social">
                     <a target="_blank" href="https://www.facebook.com/">
@@ -71,7 +70,7 @@ const Footer = () => {
               <div className="col-md-6 col-xl-3">
                 <div className="widget footer-widget">
                   <h3 className="widget_title">Our Mission</h3>
-                  <p>We provide specialized winterization services to safeguard your pool during the off-season, and when spring arrives, we handle the thorough opening process.</p>
+                  <p>Our mission is simple: to provide our clients with the best pool experience possible. we focus on quality craftsmanship, attention to detail, and customer satisfaction.</p>
                 </div>
               </div>
 

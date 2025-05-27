@@ -6,32 +6,32 @@ import 'swiper/css/pagination';
 
 const testimonials = [
   {
-    text: "We're here to make pool maintenance easy & hassle free for you...",
+    text: "Star Pools made our pool renovation project seamless and stress-free. Highly recommended!",
     name: "Alex Michel",
-    designation: "Ui/Ux Designer",
+    designation: "Homeowner",
     image: "assets/img/testimonial/testi_3_1.jpg",
-    rating: 4,
+    rating: 5,
   },
   {
-    text: "We meticulously test and balance the water chemistry during each service visit...",
+    text: "We trusted Star Pools with our new pool build, and the result exceeded all expectations.",
     name: "Dianne Russell",
-    designation: "Ui/Ux Designer",
+    designation: "Property Manager",
     image: "assets/img/testimonial/testi_3_2.jpg",
-    rating: 4,
+    rating: 5,
   },
   {
-    text: "Parallel task user friendly through supply are chains...",
+    text: "Their expertise in pool design and attention to detail truly transformed our backyard.",
     name: "Wade Warren",
-    designation: "Ui/Ux Designer",
+    designation: "Landscape Architect",
     image: "assets/img/testimonial/testi_3_3.jpg",
-    rating: 4,
+    rating: 5,
   },
   {
-    text: "Continually utilize 24/365 bandwidth before real-time interfaces...",
+    text: "Star Pools delivered an outstanding pool renovation, bringing our vision to life perfectly.",
     name: "David Marlo",
-    designation: "Ui/Ux Designer",
+    designation: "Real Estate Investor",
     image: "assets/img/testimonial/testi_3_1.jpg",
-    rating: 4,
+    rating: 5,
   },
 ];
 

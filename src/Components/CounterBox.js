@@ -26,13 +26,15 @@ const CounterBox = ({ end, text }) => {
 };
 
 const CounterSection = () => (
-  <div className="bg-theme" style={{ backgroundImage: "url('assets/img/bg/counter_bg_2.jpg')" }}>
+  <div className="bg-theme"
+       // style={{ backgroundImage: "url('assets/img/bg/counter_bg_2.jpg')" }}
+  >
     <div className="container">
       <div className="counter-sec style2">
-        <CounterBox end={2564} text="Successfully Projects Complete" />
-        <CounterBox end={164} text="Expert Team Members" />
-        <CounterBox end={2985} text="Our Satisfied Customers" />
-        <CounterBox end={80} text="Best Company Awards" />
+        <CounterBox end={250} text="Projects Completed" />
+        <CounterBox end={30} text="Experienced Team Members" />
+        <CounterBox end={350} text="Satisfied Customers" />
+        <CounterBox end={25} text="Years of Excellence" />
       </div>
     </div>
   </div>

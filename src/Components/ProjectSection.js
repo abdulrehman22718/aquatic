@@ -4,27 +4,81 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from 'react-router-dom';
 
-
 const projects = [
     {
-        img: "assets/img/project/project_2_1.jpg",
+        img: "assets/img/gallery/1.jpg",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/project/project_2_2.jpg",
+        img: "assets/img/gallery/2.jpg",
         title: "Water Analysis",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/project/project_2_3.jpg",
+        img: "assets/img/gallery/3.jpg",
         title: "Equipment Install",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/project/project_2_4.jpg",
+        img: "assets/img/gallery/4.jpeg",
         title: "Pool Inspections",
         subtitle: "Residential Services",
+    },
+    {
+        img: "assets/img/gallery/5.jpg",
+        title: "Leak Detection",
+        subtitle: "Commercial Services",
+    },
+    {
+        img: "assets/img/gallery/6.jpg",
+        title: "Filter Maintenance",
+        subtitle: "Commercial Services",
+    },
+    {
+        img: "assets/img/gallery/7.jpg",
+        title: "Pool Remodeling",
+        subtitle: "Premium Services",
+    },
+    {
+        img: "assets/img/gallery/8.jpg",
+        title: "Chemical Treatment",
+        subtitle: "Residential Services",
+    },
+    {
+        img: "assets/img/gallery/9.jpg",
+        title: "Green Pool Recovery",
+        subtitle: "Emergency Services",
+    },
+    {
+        img: "assets/img/gallery/10.jpg",
+        title: "Heater Installation",
+        subtitle: "Installation Services",
+    },
+    {
+        img: "assets/img/gallery/11.jpg",
+        title: "Custom Pool Design",
+        subtitle: "Premium Services",
+    },
+    {
+        img: "assets/img/gallery/12.jpg",
+        title: "Tile & Coping Work",
+        subtitle: "Residential Services",
+    },
+    {
+        img: "assets/img/gallery/13.jpg",
+        title: "Pump Replacement",
+        subtitle: "Maintenance Services",
+    },
+    {
+        img: "assets/img/gallery/14.jpeg",
+        title: "Salt System Setup",
+        subtitle: "Installation Services",
+    },
+    {
+        img: "assets/img/gallery/15.webp",
+        title: "Weekly Pool Service",
+        subtitle: "Subscription Services",
     },
 ];
 
