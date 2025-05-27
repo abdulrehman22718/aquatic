@@ -6,7 +6,7 @@ const AboutComponent = () => (
     <div className="about-sec overflow-hidden space" id="about-sec">
       <div className="container align-item-center">
         <div className="row">
-          <div className="col-xl-6">
+          <div className="col-xl-6 d-done-mbl">
             <div className="img-box3">
               <div className="img3 wow fadeInUp">
                 <img src="assets/img/about/about-1.jpeg" data-aos="fade-down" alt="About"/>

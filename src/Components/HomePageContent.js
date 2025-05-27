@@ -58,7 +58,7 @@ const HomePageContent = () => {
                             <h1 className="hero-title pt-2" data-ani="slideindown" data-ani-delay="0.4s">Design, Build, and Renovation</h1>
                             <p className="hero-text" data-ani="slideinup" data-ani-delay="0.1s">From custom builds to expert renovations, we specialize in high-end pools and premium finishes. Refresh, relax, and rejuvenate in style.</p>
                             <div className="btn-group" data-ani="slideinup" data-ani-delay="0.5s">
-                                <a href="about.html" className="th-btn style4">Contact Us</a>
+                                <Link to="/" className="th-btn style4">Contact Us</Link>
                             </div>
                         </div>
                     </div>
@@ -234,8 +234,8 @@ const HomePageContent = () => {
                             </div>
                             <div className="contact-media_content">
                                 <p className="contact-media_subtitle">Email Us For Any Info.</p>
-                                <a href="mailto:info@starpoolsmb.com"
-                                   className="contact-media_title">info@starpoolsmb.com</a>
+                                <a href="mailto:starpools85@gmail.com"
+                                   className="contact-media_title">starpools85@gmail.com</a>
                             </div>
                         </div>
                     </div>

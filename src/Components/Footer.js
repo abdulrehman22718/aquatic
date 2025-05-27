@@ -84,8 +84,8 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col-12">
                 <p className="copyright-text text-white text-center">
-                  © 2023{" "}
-                  <a href="https://www.starpoolsmb.com/"> Starpoolsmb </a>. All
+                  © 2025
+                  <a href="https://www.starpoolsmb.com/" style={{fontWeight:'bold', color:'wheat'}}> Star Pools MB </a>. All
                   Rights Reserved.
                 </p>
               </div>

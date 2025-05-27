@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import MobileMenu from "./MobileMenu";
 
 const Header = ({ onToggleMenu }) => {
     return (
@@ -18,7 +19,7 @@ const Header = ({ onToggleMenu }) => {
 
                                         <li>
                                             <i className="fa-regular fa-messages"></i>
-                                            <a href="mailto:info@starpoolsmb.com">info@starpoolsmb.com</a>
+                                            <a href="mailto:starpools85@gmail.com">starpools85@gmail.com</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -55,7 +56,7 @@ const Header = ({ onToggleMenu }) => {
                                 <div className="col-auto">
                                     <div className="header-logo">
                                         <Link to="/">
-                                            <img  style={{height:'75px'}} className="img-fluid"
+                                            <img  style={{height:'65px'}} className="img-fluid"
                                                   src="assets/img/logo-client.png"
                                                   alt="Poolax" />
                                         </Link>
@@ -156,7 +157,7 @@ const Header = ({ onToggleMenu }) => {
                     </div>
                 </div>
             </header>
-
+            <MobileMenu/>
         </>
     );
 };
