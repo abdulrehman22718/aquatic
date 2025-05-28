@@ -9,7 +9,16 @@ const ContactUs = () => {
                     <div className="col-xl-7 col-xxl-6">
                         <div className="title-area mb-10">
                             <h2 className="sec-title">Contact Information</h2>
-                            <p className="mb-0">At Star Pools, we proudly provide exceptional pool maintenance, thorough pool cleaning, and expert pool equipment repair services throughout the Carolinas. Whether you're a homeowner or manage a commercial property, our team of experienced professionals is ready to keep your pool in top condition. Reach out to us today and experience the difference of working with true pool care experts.</p>
+                            <p className="mb-0">
+                                Star Pools is a veteran-owned and operated company, proudly serving the Carolinas. We
+                                specialize in renovations, new builds, and high-end Pebble Tec plaster finishes, and
+                                State Of the art leak detections. Whether you’re upgrading with Pebble Tec or starting a
+                                new build from the ground up, or making renovations you can trust our years of
+                                experience and commitment to excellence.
+                            </p>
+                            <h4 className="mt-50">
+                                Call or text us today to bring your vision to life
+                            </h4>
                         </div>
                         <div className="contact-info-wrap">
 
@@ -48,7 +57,7 @@ const ContactUs = () => {
                     </div>
                     <div className="col-xl-5 col-xxl-5 offset-xxl-1">
                         <div className="contact-form-wrapper">
-                            <form action="mail.php" method="POST" className="contact-form ajax-contact">
+                            <form action="mail.php" method="POST" className="contact-form">
                                 <h3 className="form-title text-center">Get In Touch</h3>
                                 <div className="row">
                                     <div className="form-group col-12">
