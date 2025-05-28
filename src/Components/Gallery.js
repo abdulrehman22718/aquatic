@@ -5,82 +5,82 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const projects = [
     {
-        img: "assets/img/gallery/gallery-1.avif",
+        img: "assets/img/gallery/gallery-1.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-2.avif",
+        img: "assets/img/gallery/gallery-2.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-3.avif",
+        img: "assets/img/gallery/gallery-3.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-4.avif",
+        img: "assets/img/gallery/gallery-4.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-5.avif",
+        img: "assets/img/gallery/gallery-5.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-6.avif",
+        img: "assets/img/gallery/gallery-6.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-7.avif",
+        img: "assets/img/gallery/gallery-7.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-8.avif",
+        img: "assets/img/gallery/gallery-8.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-9.avif",
+        img: "assets/img/gallery/gallery-9.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-10.avif",
+        img: "assets/img/gallery/gallery-10.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-11.avif",
+        img: "assets/img/gallery/gallery-11.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-12.avif",
+        img: "assets/img/gallery/gallery-12.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-13.avif",
+        img: "assets/img/gallery/gallery-13.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-14.avif",
+        img: "assets/img/gallery/gallery-14.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-15.avif",
+        img: "assets/img/gallery/gallery-15.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },
     {
-        img: "assets/img/gallery/gallery-16.avif",
+        img: "assets/img/gallery/gallery-16.png",
         title: "Pool Water Cleaning",
         subtitle: "Residential Services",
     },

@@ -40,7 +40,7 @@ const AboutComponent = () => (
                       <spna><i><strong>SC Lic. CLG.126418</strong></i></spna>
                     </div>
                     <div className='col-6 text-end'>
-                      <img src="assets/img/VOB_Logo.avif" style={{ width: '120px' }} alt="About" />
+                      <img src="assets/img/VOB_Logo.png" style={{ width: '120px' }} alt="About" />
                     </div>
                   </div>
                 </div>
