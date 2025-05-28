@@ -44,12 +44,19 @@ const Footer = () => {
                   <h3 className="widget_title">Quick link</h3>
                   <div className="menu-all-pages-container">
                     <ul className="menu">
-                      <li>
-                        <Link to="/">Home</Link>
+                      <li><Link to="/">Home</Link></li>
+                      <li><Link to="/about-us">About Us</Link></li>
+                      <li className="menu-item-has-children">
+                        <a href="#">Our Services</a>
+                        <ul className="sub-menu">
+                          <li><a href="#">Pebble Tec Plaster</a></li>
+                          <li><a href="#">Concrete Pools</a></li>
+                          <li><a href="#">Fiberglass Pools</a></li>
+                          <li><a href="#">Leak & Repair</a></li>
+                        </ul>
                       </li>
-                      <li>
-                        <Link to="/about-us">About Us</Link>
-                      </li>
+                      <li><Link to="/about-us">About Us</Link></li>
+                      <li><Link to="/Contact">Contact Us</Link></li>
                       {/* <li>
                       <a href="gallery.html">gallery</a>
                     </li>
@@ -70,7 +77,8 @@ const Footer = () => {
               <div className="col-md-6 col-xl-3">
                 <div className="widget footer-widget">
                   <h3 className="widget_title">Our Mission</h3>
-                  <p>Our mission is simple: to provide our clients with the best pool experience possible. we focus on quality craftsmanship, attention to detail, and customer satisfaction.</p>
+                  <p>Our mission is simple: to provide our clients with the best pool experience possible. we focus on
+                    quality craftsmanship, attention to detail, and customer satisfaction.</p>
                 </div>
               </div>
 

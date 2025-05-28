@@ -16365,7 +16365,10 @@ span.select2-selection.select2-selection--single:focus {
     display: none;
   }
   .contact-info-area {
-    padding-bottom: 85px;
+    padding-bottom: 92px;
+  }
+  .footer-widget.widget_meta li:last-child a, .footer-widget.widget_pages li:last-child a, .footer-widget.widget_archive li:last-child a, .footer-widget.widget_categories li:last-child a, .footer-widget.widget_nav_menu li:last-child a {
+    margin-bottom: 16px;
   }
 }
 
