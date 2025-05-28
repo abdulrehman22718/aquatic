@@ -22984,3 +22984,32 @@ span.select2-selection.select2-selection--single:focus {
   gap: 1rem;
 }
 }
+
+
+.text-white{
+  color:white;
+}
+
+
+.btn-services-three {
+  background-color: #3d5a94;
+  padding: 20px;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  border-radius: 10px;
+  border:1px solid #3d5a94;
+}
+
+.btn-services-three:hover {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color:#3d5a94;
+  font-size: 20px;
+  border-radius: 10px;
+}

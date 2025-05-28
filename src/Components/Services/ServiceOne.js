@@ -57,9 +57,9 @@ const ServiceOne = () => {
                         <div className="col-xxl-12 col-lg-8">
                             <div className="page-single service-single" style={{ backgroundColor: '#3d5a94' }}>
                                 <div className="page-content">
-                                    <h3 className="">Your outdoor living space can be a lasting oasis with the World’s Most Trusted Pool Finishes®.</h3>
-                                    <h4 style={{ color: 'white' }}>Find the Pool Finish Texture and Water Color that fits your vision.</h4>
-                                    <p style={{ color: 'white' }}>PebbleTec's easy to use design tool let's you imagine ALL the possibilities.</p>
+                                    <h3 className="text-white">Your outdoor living space can be a lasting oasis with the World’s Most Trusted Pool Finishes®.</h3>
+                                    <h4 className="text-white">Find the Pool Finish Texture and Water Color that fits your vision.</h4>
+                                    <p className="text-white">PebbleTec's easy to use design tool let's you imagine ALL the possibilities.</p>
                                     <div className="container">
                                         <div className="row">
                                             <div className="col-12 col-md-6 text-center mt-2">
