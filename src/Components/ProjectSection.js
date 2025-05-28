@@ -107,7 +107,7 @@ const ProjectSection = () => {
 
     return (
         <section
-            className="project-sec bg-top-center overflow-hidden space-top"
+            className="project-sec bg-top-center overflow-hidden space"
             id="Portfolio-sec"
             style={{ backgroundImage: `url('assets/img/bg/project_bg_1.jpg')` }}
         >

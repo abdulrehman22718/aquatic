@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const ContactUs = () => {
     return (
         <div className="space" id="contact-sec">
-            <div className="container mt-5">
+            <div className="container space">
                 <div className="row gy-40">
                     <div className="col-xl-7 col-xxl-6">
                         <div className="title-area mb-10">
@@ -36,7 +36,7 @@ const ContactUs = () => {
                                 </div>
                             </div>
                         </div>
-                        <h5 className="mt-35">Follow us today!</h5>
+                        {/*<h5 className="mt-35">Follow us today!</h5>
                         <p>Crystal clear pools start with a click </p>
                         <div className="th-social  footer-social style2">
                             <a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a>
@@ -44,7 +44,7 @@ const ContactUs = () => {
                             <a href="https://www.linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
                             <a href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a>
                             <a href="https://www.behance.net/"><i className="fa-brands fa-behance"></i></a>
-                        </div>
+                        </div>*/}
                     </div>
                     <div className="col-xl-5 col-xxl-5 offset-xxl-1">
                         <div className="contact-form-wrapper">

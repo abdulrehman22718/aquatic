@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const MagazineFeature = () => {
     return (
         <>
-            <section className="space-top mt-5">
+            <section className="space mt-5">
                 <div className="container text-center">
                     <div className="row">
                         <div className="col-xxl-12 col-lg-8">
