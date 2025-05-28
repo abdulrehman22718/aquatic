@@ -16364,6 +16364,9 @@ span.select2-selection.select2-selection--single:focus {
   .d-done-mbl  {
     display: none;
   }
+  .contact-info-area {
+    padding-bottom: 85px;
+  }
 }
 
 .th-counterup:last-child {
