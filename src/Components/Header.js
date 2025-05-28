@@ -129,9 +129,6 @@ const Header = ({ onToggleMenu }) => {
                                                 <Link to="/magazine-feature">Magazine Feature</Link>
                                             </li>
                                             <li>
-                                                <Link to="/contact-us">Contact Us</Link>
-                                            </li>
-                                            <li>
                                                 <Link to="/gallery">Gallery</Link>
                                             </li>
                                             <li>

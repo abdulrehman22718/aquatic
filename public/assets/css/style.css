@@ -23659,14 +23659,14 @@ span.select2-selection.select2-selection--single:focus {
   border-radius: 20px;
   border: 2px solid black;
   margin-bottom: 20px;
-  margin-top:20px;
+  margin-top: 20px;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 1);
 
 
 }
 
-.text-theme{
-  color:#3D5A94;
+.text-theme {
+  color: #3D5A94;
 }
 
 
@@ -23677,7 +23677,7 @@ span.select2-selection.select2-selection--single:focus {
   left: 0;
   width: 100px !important;
   height: 100%;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23686,3 +23686,10 @@ span.select2-selection.select2-selection--single:focus {
   border-radius: 10px;
 }
 
+.borderRadius-20 {
+  border-radius: 20px;
+}
+
+.box-shadow-black {
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 1);
+}
