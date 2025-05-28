@@ -149,23 +149,23 @@ const ProjectSection = () => {
                                     src={project.img}
                                     alt={project.title}
                                     style={{
-                                        width: "100%",    // full width of container
-                                        height: "300px",  // fixed height (adjust as needed)
+                                        width: "100%",    
+                                        height: "300px",  
                                         objectFit: "cover",
-                                        borderRadius: "8px", // optional for nice rounding
+                                        borderRadius: "8px", 
                                     }}
                                 />
 
                             </div>
-                            <div className="project-content mt-3" style={{backgroundColor:'rgba(0,0,0,0.5)'}}>
+                            <div className="project-content gallery-hover-effect">
                                 <div className="media-left">
-                                    <span className="project-subtitle">{project.subtitle}</span>
+                                    <span className="project-subtitle text-white">{project.subtitle}</span>
                                     <h4 className="box-title">
-                                        <a href="gallery.html">{project.title}</a>
+                                        <Link to="/gallery">{project.title}</Link>
                                     </h4>
-                                    <a target="_blank" href={project.img} className="icon-btn popup-image">
+                                    <Link to="/gallery" className="icon-btn popup-image">
                                         <i className="far fa-plus"></i>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

@@ -139,7 +139,7 @@ const HomePageContent = () => {
                 </div>
                 <div className="col-xl-5 col-lg-6">
                     <div className="btn-group justify-content-lg-end justify-content-center">
-                        <Link to="/" className="th-btn th-border">Contact Us</Link>
+                        <Link to="/contact-us" className="th-btn th-border">Contact Us</Link>
                     </div>
                 </div>
             </div>

@@ -27,7 +27,7 @@ const Header = ({ onToggleMenu }) => {
                                     </ul>
                                 </div>
                             </div>
-                   {/*         <div className="col-auto">
+                            {/*         <div className="col-auto">
                                 <div className="social-links">
                                     <span className="social-title">Follow Us On:</span>
                                     <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
@@ -59,9 +59,9 @@ const Header = ({ onToggleMenu }) => {
                                 <div className="col-auto">
                                     <div className="header-logo">
                                         <Link to="/">
-                                            <img  style={{height:'65px'}} className="img-fluid"
-                                                  src="assets/img/logo-client.png"
-                                                  alt="Poolax" />
+                                            <img style={{ height: '65px' }} className="img-fluid"
+                                                src="assets/img/logo-client.png"
+                                                alt="Poolax" />
                                         </Link>
                                     </div>
                                 </div>
@@ -105,25 +105,37 @@ const Header = ({ onToggleMenu }) => {
                                                 <Link to="/">Home</Link>
                                             </li>
                                             <li>
-                                                <Link to="/About-Us">About Us</Link>
+                                                <Link to="/about-us">About Us</Link>
                                             </li>
                                             <li className="menu-item-has-children">
-                                                <a href="#">Services</a>
+                                                <Link to="/services">Services</Link>
                                                 <ul className="sub-menu">
                                                     <li>
-                                                        <a href="#">Pebble Tec Plaster</a>
+                                                        <Link to="pebble-tec-plaster">Pebble Tec Plaster</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Concrete Pools</a>
+                                                        <Link to="/concrete-pools">Concrete Pools</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Fiberglass Pools</a>
+                                                        <Link to="/fiber-glass-pools">Fiberglass Pools</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Leak & Repair</a>
+                                                        <Link to="/leak-and-repair">Leak & Repair</Link>
                                                     </li>
 
                                                 </ul>
+                                            </li>
+                                            <li>
+                                                <Link to="/magazine-feature">Magazine Feature</Link>
+                                            </li>
+                                            <li>
+                                                <Link to="/contact-us">Contact Us</Link>
+                                            </li>
+                                            <li>
+                                                <Link to="/gallery">Gallery</Link>
+                                            </li>
+                                            <li>
+                                                <Link to="/financing">Financing</Link>
                                             </li>
 
                                             {/* <li>
@@ -143,7 +155,7 @@ const Header = ({ onToggleMenu }) => {
                                 </div>
                                 <div className="col-auto">
                                     <div className="header-button">
-                                        <Link to="/About-Us" className="request-quote">
+                                        <Link to="/contact-us" className="request-quote">
                                             Request a quote
                                         </Link>
                                         <button
@@ -169,27 +181,46 @@ const Header = ({ onToggleMenu }) => {
                                 <i className="fas fa-times"></i>
                             </button>
                             <div className="menu-logo">
-                                <img src="assets/img/logo-client.png" alt="Poolax" style={{height: '65px'}}/>
+                                <img src="assets/img/logo-client.png" alt="Poolax" style={{ height: '65px' }} />
                             </div>
-                            <hr/>
+                            <hr />
                             <div className="th-mobile-menu">
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/About-Us">About Us</Link></li>
                                     <li className="menu-item-has-children">
-                                        <a href="#">Our Services</a>
+                                        <Link to="/services">Services</Link>
                                         <ul className="sub-menu">
-                                            <li><a href="#">Pebble Tec Plaster</a></li>
-                                            <li><a href="#">Concrete Pools</a></li>
-                                            <li><a href="#">Fiberglass Pools</a></li>
-                                            <li><a href="#">Leak & Repair</a></li>
+                                            <li>
+                                                <Link to="pebble-tec-plaster">Pebble Tec Plaster</Link>
+                                            </li>
+                                            <li>
+                                                <Link to="/concrete-pools">Concrete Pools</Link>
+                                            </li>
+                                            <li>
+                                                <Link to="/fiber-glass-pools">Fiberglass Pools</Link>
+                                            </li>
+                                            <li>
+                                                <Link to="/leak-and-repair">Leak & Repair</Link>
+                                            </li>
+
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><Link to="/Contact">Contact Us</Link></li>
+                                    <li>
+                                        <Link to="/magazine-feature">Magazine Feature</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/contact-us">Contact Us</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/gallery">Gallery</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/financing">Financing</Link>
+                                    </li>
                                 </ul>
                             </div>
-                         {/*   <ul className="mobile-nav">
+                            {/*   <ul className="mobile-nav">
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/About-Us">About Us</Link></li>
                                 <li>

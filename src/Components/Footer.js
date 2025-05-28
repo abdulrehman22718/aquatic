@@ -48,8 +48,8 @@ const Footer = () => {
                                     <ul className="menu">
                                         <li><Link to="/">Home</Link></li>
                                         <li><Link to="/about-us">About Us</Link></li>
-                                        <li><Link to="/about-us">About Us</Link></li>
-                                        <li><Link to="/Contact">Contact Us</Link></li>
+                                        <li><Link to="/gallery">Gallery</Link></li>
+                                        <li><Link to="/contact-us">Contact Us</Link></li>
                                         {/*<li className="menu-item-has-children">
                                             <a href="#">Our Services</a>
                                             <ul className="sub-menu">
@@ -69,10 +69,10 @@ const Footer = () => {
                                 <h3 className="widget_title">Our Services</h3>
                                 <div className="menu-all-pages-container">
                                     <ul className="menu">
-                                        <li><Link to="#">Pebble Tec Plaster</Link></li>
-                                        <li><Link to="#">Concrete Pools</Link></li>
-                                        <li><Link to="#">Fiberglass Pools</Link></li>
-                                        <li><Link to="#">Leak & Repair</Link></li>
+                                        <li><Link to="pebble-tec-plaster">Pebble Tec Plaster</Link></li>
+                                        <li><Link to="concrete-pools">Concrete Pools</Link></li>
+                                        <li><Link to="fiber-glass-pools">Fiberglass Pools</Link></li>
+                                        <li><Link to="leak-and-repair">Leak & Repair</Link></li>
                                     </ul>
                                 </div>
                             </div>
