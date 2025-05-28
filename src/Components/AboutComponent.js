@@ -34,6 +34,16 @@ const AboutComponent = () => (
                   that stand the test of time. Whether you’re building your dream pool from scratch, renovating an
                   existing one, or upgrading with the latest technologies, we’re committed to excellence at every
                   step.</p>
+                <div className='container'>
+                  <div className='row'>
+                    <div className='col-6 text-start'>
+                      <spna><i><strong>SC Lic. CLG.126418</strong></i></spna>
+                    </div>
+                    <div className='col-6 text-end'>
+                      <img src="assets/img/VOB_Logo.avif" style={{ width: '120px' }} alt="About" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
