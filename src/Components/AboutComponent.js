@@ -10,10 +10,10 @@ const AboutComponent = () => (
           <div className="col-xl-6 d-done-mbl">
             <div className="img-box3">
               <div className="img3 wow fadeInUp">
-                <img src="assets/img/normal/about_3_1.jpg" data-aos="fade-down" alt="About" />
+                <img src="assets/img/about/about-1.jpeg" data-aos="fade-down" alt="About" />
               </div>
               <div className="img4 wow fadeInRight" data-aos="fade-right">
-                <img src="assets/img/normal/about_3_2.jpg" alt="About" />
+                <img src="assets/img/about/about-2.jpeg" alt="About" />
               </div>
               <div className="th-experience style2">
                 <h2 className="experience-year"><span className="counter-number">25</span>+</h2>
@@ -36,11 +36,12 @@ const AboutComponent = () => (
                   step.</p>
                 <div className='container'>
                   <div className='row'>
-                    <div className='col-6 text-start'>
-                      <spna><i><strong>SC Lic. CLG.126418</strong></i></spna>
+                    <div className='col-6'>
+                      <h4 className="sec-title mt-5">SC Lic. CLG.126418</h4>
+                      <spna><i><strong></strong></i></spna>
                     </div>
                     <div className='col-6 text-end'>
-                      <img src="assets/img/VOB_Logo.avif" style={{ width: '120px' }} alt="About" />
+                      <img src="assets/img/VOB_Logo.avif" style={{ width: 'auto' }} alt="About" />
                     </div>
                   </div>
                 </div>
