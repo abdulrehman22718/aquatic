@@ -157,7 +157,7 @@ const ProjectSection = () => {
                                 />
 
                             </div>
-                            {/* <div className="project-content mt-3">
+                            <div className="project-content mt-3" style={{backgroundColor:'rgba(0,0,0,0.5)'}}>
                                 <div className="media-left">
                                     <span className="project-subtitle">{project.subtitle}</span>
                                     <h4 className="box-title">
@@ -167,7 +167,7 @@ const ProjectSection = () => {
                                         <i className="far fa-plus"></i>
                                     </a>
                                 </div>
-                            </div>*/}
+                            </div>
                         </div>
                     ))}
                 </Slider>

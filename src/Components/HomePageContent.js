@@ -118,8 +118,7 @@ const HomePageContent = () => {
     }
     <ServicesSlider/>
 
-    {/* ABOUT AREA */
-    }
+    {/* ABOUT AREA */}
 
     <AboutComponent/>
 
@@ -140,7 +139,6 @@ const HomePageContent = () => {
                 </div>
                 <div className="col-xl-5 col-lg-6">
                     <div className="btn-group justify-content-lg-end justify-content-center">
-                        {/*<Link to="/about-us" className="th-btn style4">Get Our Services</Link>*/}
                         <Link to="/" className="th-btn th-border">Contact Us</Link>
                     </div>
                 </div>
@@ -149,8 +147,7 @@ const HomePageContent = () => {
     </section>
 
 
-    {/* CHART AREA */
-    }
+    {/* CHART AREA */}
     <section className="space-top overflow-hidden space-bottom">
         <div className="container">
             <div className="row">

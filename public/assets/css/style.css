@@ -19775,7 +19775,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .service-feature-wrap {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
@@ -21594,7 +21594,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .process-card3 .process-card_text {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .process-card3:hover:before {
@@ -22927,4 +22927,60 @@ span.select2-selection.select2-selection--single:focus {
   .request-quote {
     display: none;
   }
+}
+
+.main-menu{
+  margin-left:50px;
+}
+
+.btn-services {
+  background-color: transparent;
+  padding: 20px;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  border-radius: 10px;
+  border:1px solid white;
+}
+
+.btn-services:hover {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color:#3d5a94;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+
+.gap-10 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10rem;
+}
+.center-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem; /* Reduced top margin on mobile */
+}
+
+@media (min-width: 768px) {
+  .center-mobile {
+    justify-content: flex-start;  /* Revert to normal alignment on larger screens */
+    align-items: flex-start;
+    margin-top: 3rem;             /* Restore normal top margin */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .gap-10 {
+  gap: 1rem;
+}
 }

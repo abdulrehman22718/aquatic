@@ -9,10 +9,10 @@ const AboutComponent = () => (
           <div className="col-xl-6 d-done-mbl">
             <div className="img-box3">
               <div className="img3 wow fadeInUp">
-                <img src="assets/img/about/about-1.jpeg" data-aos="fade-down" alt="About"/>
+                <img src="assets/img/normal/about_3_1.jpg" data-aos="fade-down" alt="About"/>
               </div>
               <div className="img4 wow fadeInRight" data-aos="fade-right">
-                <img src="assets/img/about/about-2.jpeg" alt="About"/>
+                <img src="assets/img/normal/about_3_2.jpg" alt="About"/>
               </div>
               <div className="th-experience style2">
                 <h2 className="experience-year"><span className="counter-number">25</span>+</h2>
@@ -34,9 +34,6 @@ const AboutComponent = () => (
                   existing one, or upgrading with the latest technologies, we’re committed to excellence at every
                   step.</p>
               </div>
-              {/*<div className="btn-group mt-40">
-                            <Link to="about-us" className="th-btn radius-none">About Us</Link>
-                        </div>*/}
             </div>
           </div>
         </div>

@@ -8,6 +8,8 @@ import HomePageContent from './Components/HomePageContent';
 import Footer from './Components/Footer';
 import AboutUs from './Components/AboutUs/AboutUs';
 import MobileMenu from './Components/MobileMenu';
+import Services from './Components/Services/Services';
+import ServiceOne from './Components/Services/ServiceOne';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePageContent />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/pebble-tec-plaster" element={<ServiceOne />} />
       </Routes>
 
       <Footer />
