@@ -18,13 +18,14 @@ import ServiceFour from './Components/Services/ServiceFour';
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+
   return (
     <Router>
       <Preloader />
-         <Header onToggleMenu={() => setMenuOpen(true)} />
-      {menuOpen && <MobileMenu onCloseMenu={() => setMenuOpen(false)} />}
-     
-      
+      <MobileMenu />
+      <Header />
+
+
       <Routes>
         <Route path="/" element={<HomePageContent />} />
         <Route path="/about-us" element={<AboutUs />} />
@@ -33,6 +34,12 @@ function App() {
         <Route path="/concrete-pools" element={<ServiceTwo />} />
         <Route path="/fiber-glass-pools" element={<ServiceThree />} />
         <Route path="/leak-and-repair" element={<ServiceFour />} />
+      </Routes>
+
+
+      <Routes>
+        <Route path="/" element={<HomePageContent />} />
+        <Route path="/about-us" element={<AboutUs />} />
       </Routes>
 
       <Footer />

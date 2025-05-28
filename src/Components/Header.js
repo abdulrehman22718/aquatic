@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import MobileMenu from "./MobileMenu";
 
 const Header = ({ onToggleMenu }) => {
+    const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const toggleMobileMenu = () => setMobileMenuOpen(!isMobileMenuOpen);
+
     return (
         <>
             <header className="th-header header-layout3 header-absolute onepage-nav">
@@ -146,7 +149,7 @@ const Header = ({ onToggleMenu }) => {
                                         <button
                                             className="icon-btn th-menu-toggle d-inline-block d-lg-none"
                                             aria-label="Toggle Menu"
-                                            onClick={onToggleMenu}
+                                            onClick={toggleMobileMenu}
                                         >
                                             <i className="far fa-bars"></i>
                                         </button>
@@ -157,7 +160,56 @@ const Header = ({ onToggleMenu }) => {
                     </div>
                 </div>
             </header>
-            <MobileMenu/>
+
+            {isMobileMenuOpen && (
+                <>
+                    <div className="mobile-menu-overlay" onClick={toggleMobileMenu}>
+                        <div className="mobile-menu" onClick={(e) => e.stopPropagation()}>
+                            <button className="menu-close" onClick={toggleMobileMenu}>
+                                <i className="fas fa-times"></i>
+                            </button>
+                            <div className="menu-logo">
+                                <img src="assets/img/logo-client.png" alt="Poolax" style={{height: '65px'}}/>
+                            </div>
+                            <hr/>
+                            <div className="th-mobile-menu">
+                                <ul>
+                                    <li><Link to="/">Home</Link></li>
+                                    <li><Link to="/About-Us">About Us</Link></li>
+                                    <li className="menu-item-has-children">
+                                        <a href="#">Our Services</a>
+                                        <ul className="sub-menu">
+                                            <li><a href="#">Pebble Tec Plaster</a></li>
+                                            <li><a href="#">Concrete Pools</a></li>
+                                            <li><a href="#">Fiberglass Pools</a></li>
+                                            <li><a href="#">Leak & Repair</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">About us</a></li>
+                                    <li><Link to="/Contact">Contact Us</Link></li>
+                                </ul>
+                            </div>
+                         {/*   <ul className="mobile-nav">
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/About-Us">About Us</Link></li>
+                                <li>
+                                    <span>Services</span>
+                                    <ul className="submenu">
+                                        <li><a href="#">Pebble Tec Plaster</a></li>
+                                        <li><a href="#">Concrete Pools</a></li>
+                                        <li><a href="#">Fiberglass Pools</a></li>
+                                        <li><a href="#">Leak & Repair</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Pages</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><Link to="/Contact">Contact Us</Link></li>
+                            </ul>*/}
+                        </div>
+                    </div>
+                </>
+            )}
+
         </>
     );
 };
