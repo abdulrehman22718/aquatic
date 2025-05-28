@@ -23693,3 +23693,6 @@ span.select2-selection.select2-selection--single:focus {
 .box-shadow-black {
   box-shadow: 2px 0 10px rgba(0, 0, 0, 1);
 }
+#Portfolio-sec .slick-slider .slick-arrow {
+  display: none !important;
+}
