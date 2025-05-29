@@ -56,7 +56,7 @@ const HomePageContent = () => {
                                 paddingLeft: '10px',
                             }}>Excellence in</span>
                             <h1 className="hero-title pt-2" data-ani="slideindown" data-ani-delay="0.4s">Design, Build, and Renovation</h1>
-                            <p className="hero-text" data-ani="slideinup" data-ani-delay="0.1s">From custom builds to expert renovations, we specialize in top-tier pools and premium finishes.. Refresh, relax, and rejuvenate in style.</p>
+                            <p className="hero-text" data-ani="slideinup" data-ani-delay="0.1s">From custom builds to expert renovations, we specialize in refined pools and premium finishes.. Refresh, relax, and rejuvenate in style.</p>
                             <div className="btn-group" data-ani="slideinup" data-ani-delay="0.5s">
                                 <Link to="/" className="th-btn style4">Contact Us</Link>
                             </div>
@@ -170,7 +170,7 @@ const HomePageContent = () => {
                     <FeatureCircle
                         percent={95}
                         title="Experienced Team"
-                        text="Our team of certified technicians and designers has years of experience in pool construction and renovations. We use top-tier materials and innovative techniques to ensure your pool is built to last."
+                        text="Our team of certified technicians and designers has years of experience in pool construction and renovations. We use the finest materials and innovative techniques to ensure your pool is built to last."
                     />
                 </div>
                 <div className="col-md-6 col-lg-4">
