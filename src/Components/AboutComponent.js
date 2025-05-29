@@ -29,7 +29,7 @@ const AboutComponent = () => (
                 <p className="mb-0">At Star Pools, we’re passionate about transforming backyards into beautiful,
                   functional oases. As a veteran-owned and operated company, we take pride in serving the Carolinas with
                   unmatched expertise in pool design, construction, and renovation. </p> <br />
-                <p className="mb-0">With years of experience in creating custom pools, high-end finishes like Pebble Tec
+                <p className="mb-0">With years of experience in creating custom pools, elegant finishes like Pebble Tec
                   plaster, and state-of-the-art leak detection and repairs, we specialize in delivering quality results
                   that stand the test of time. Whether you’re building your dream pool from scratch, renovating an
                   existing one, or upgrading with the latest technologies, we’re committed to excellence at every

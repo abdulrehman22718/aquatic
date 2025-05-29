@@ -56,7 +56,7 @@ const HomePageContent = () => {
                                 paddingLeft: '10px',
                             }}>Excellence in</span>
                             <h1 className="hero-title pt-2" data-ani="slideindown" data-ani-delay="0.4s">Design, Build, and Renovation</h1>
-                            <p className="hero-text" data-ani="slideinup" data-ani-delay="0.1s">From custom builds to expert renovations, we specialize in high-end pools and premium finishes. Refresh, relax, and rejuvenate in style.</p>
+                            <p className="hero-text" data-ani="slideinup" data-ani-delay="0.1s">From custom builds to expert renovations, we specialize in top-tier pools and premium finishes.. Refresh, relax, and rejuvenate in style.</p>
                             <div className="btn-group" data-ani="slideinup" data-ani-delay="0.5s">
                                 <Link to="/" className="th-btn style4">Contact Us</Link>
                             </div>

@@ -17,7 +17,7 @@ const Footer = () => {
                                     <p className="about-text">
                                         Star Pools is a veteran-owned and operated company, proudly serving the
                                         Carolinas.
-                                        We specialize in renovations, new builds, and high-end Pebble Tec plaster
+                                        We specialize in renovations, new builds, and exclusive Pebble Tec plaster
                                         finishes, and State Of the art leak detections.
                                     </p>
                                     {/*         <div className="th-social footer-social">
