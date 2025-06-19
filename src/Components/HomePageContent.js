@@ -231,8 +231,8 @@ const HomePageContent = () => {
                             </div>
                             <div className="contact-media_content">
                                 <p className="contact-media_subtitle">Email Us For Any Info.</p>
-                                <a href="mailto:starpools85@gmail.com"
-                                   className="contact-media_title">starpools85@gmail.com</a>
+                                <a href="mailto:Terryg@thestarpools.com "
+                                   className="contact-media_title">Terryg@thestarpools.com </a>
                             </div>
                         </div>
                     </div>
