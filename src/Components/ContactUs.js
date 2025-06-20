@@ -129,8 +129,12 @@ const ContactUs = () => {
                                         <textarea name="message" cols="30" rows="3" className="form-control" placeholder="Message" value={formData.message} onChange={handleChange} required></textarea>
                                     </div>
                                     <div className="form-group col-12">
-                                        <ReCAPTCHA
+                                        {/*<ReCAPTCHA
                                             sitekey="6LcsdE0rAAAAALoJys3j9FdzgXh24itywh5FrGI-"
+                                            onChange={handleRecaptcha}
+                                        />*/}
+                                        <ReCAPTCHA
+                                            sitekey="6LdDWmQrAAAAAD3ewD-_4LzhfKaumiVO2w-8IzV3"
                                             onChange={handleRecaptcha}
                                         />
                                     </div>
