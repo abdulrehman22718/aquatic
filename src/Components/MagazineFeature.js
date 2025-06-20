@@ -10,8 +10,10 @@ const MagazineFeature = () => {
                         <div className="col-xxl-12 col-lg-8">
                             <div className="page-single service-single">
                                 <div className="page-content">
-                                    <h2 className="">In the Spotlight</h2>
-                                    <h4 style={{ color: '#3D5A94' }}>A Showcase of Style, Innovation, and Creativity</h4>
+                                    <h2 className="">Featured Recently in SC Business Magazine</h2>
+                                    <h4 style={{ color: '#3D5A94' }}>
+                                        A Spotlight on Style, Innovation, and Creativity
+                                    </h4>
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-6 mb-3">

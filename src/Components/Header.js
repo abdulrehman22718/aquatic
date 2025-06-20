@@ -22,7 +22,7 @@ const Header = ({ onToggleMenu }) => {
 
                                         <li>
                                             <i className="fa-regular fa-messages"></i>
-                                            <a href="mailto:Terryg@thestarpools.com">Terryg@thestarpools.com </a>
+                                            <a href="mailto:Terryg@thestarpools.com">terryg@thestarpools.com</a>
                                         </li>
                                     </ul>
                                 </div>
